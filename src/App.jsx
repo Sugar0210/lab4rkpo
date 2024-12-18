@@ -30,7 +30,7 @@ function App() {
         </nav>
 
         <Routes>
-          <Route path="/" element={<DndPage />} />
+          <Route path="/lab4rkpo" element={<DndPage />} />
           <Route path="/todo" element={<TodoPage />} />
         </Routes>
       </div>

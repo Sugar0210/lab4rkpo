@@ -75,7 +75,7 @@ function DndPage() {
          display: 'flex', justifyContent: 'center',
          height: '100%'
       }}>
-         <Link to="/todo">Go to usual</Link>
+         <Link to="/lab4rkpo">Go to usual</Link>
          <DragDropContext onDragEnd={(result) => onDragEnd(result, columns, setColumns)} >
             {Object.entries(columns).map(([columnId, column], index) => {
                return (
