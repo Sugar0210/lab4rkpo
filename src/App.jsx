@@ -30,8 +30,8 @@ function App() {
         </nav>
 
         <Routes>
-          <Route path="/lab4rkpo" element={<DndPage />} />
-          <Route path="/todo" element={<TodoPage />} />
+          <Route path="/" element={<DndPage />} />
+          <Route path="/lab4rkpo" element={<TodoPage />} />
         </Routes>
       </div>
     </Router>
